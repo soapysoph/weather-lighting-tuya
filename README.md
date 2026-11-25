@@ -1,4 +1,4 @@
- # ✦ tuya mood & weather lamp (ﾉ◕ヮ◕)ﾉ
+# ✦ tuya mood & weather lamp (ﾉ◕ヮ◕)ﾉ
 
 a cozy little python script that turns any tuya-compatible smart rgb/cct bulb into a real-time ambient weather, temperature, and humidity lamp using the free [open-meteo](https://open-meteo.com/) api, no cloud subscription or account required.
 
@@ -29,9 +29,9 @@ if you have your smart lighting, and the box, manual, or QR code tells you to us
 ## setup
 
 ### 1. clone & install dependencies
-```bash
 git clone [https://github.com/soapysoph/weather-lighting-tuya.git](https://github.com/soapysoph/weather-lighting-tuya.git)
-cd your-repo-name
+```bash
+cd weather-lighting-tuya
 pip install tinytuya requests
 ```
 
