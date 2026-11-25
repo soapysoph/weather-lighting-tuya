@@ -85,7 +85,7 @@ def load_or_create_config():
     with open(config_file, "w", encoding="utf-8") as f:
         json.dump(cfg, f, indent=2)
 
-    print(f"\n  ✧ saved to {config_file} — you're all set (ﾉ´ヮ`)ﾉ*: ･ﾟ\n")
+    print(f"\n  ✧ saved to {config_file}, you're all set (ﾉ´ヮ`)ﾉ*: ･ﾟ\n")
     return cfg
 
 
@@ -169,7 +169,7 @@ def test_menu(bulb):
         elif choice.isdigit() and int(choice) in wmo_open_meteo:
             apply_weather_light(bulb, int(choice), label="test")
         else:
-            print("  · hmm, not on the list — try again (´･ω･`)")
+            print("  · hmm, not on the list, try again (´･ω･`)")
 
 
 def pick_city():
@@ -284,7 +284,7 @@ def main():
 
     try:
         while True:
-            title = f"✦ {cfg['bulb_name'].lower()} — weather light system"
+            title = f"✦ {cfg['bulb_name'].lower()} - weather light system"
             print("\n  ╭───────────────────────────────────────────────────╮")
             print(f"  │  {title:<40}(・ω・)ﾉ │")
             print("  ├───────────────────────────────────────────────────┤")
