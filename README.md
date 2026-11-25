@@ -24,7 +24,7 @@ a cozy little python script that turns any tuya-compatible smart rgb/cct bulb in
 
 ### 1. clone & install dependencies
 ```bash
-git clone [https://github.com/yourusername/your-repo-name.git](https://github.com/yourusername/your-repo-name.git)
+git clone [https://github.com/soapysoph/weather-lighting-tuya.git](https://github.com/soapysoph/weather-lighting-tuya.git)
 cd your-repo-name
 pip install tinytuya requests
 ```
