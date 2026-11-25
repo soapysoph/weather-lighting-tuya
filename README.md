@@ -10,6 +10,12 @@ a cozy little python script that turns any tuya-compatible smart rgb/cct bulb in
 
 ---
 
+## how do i know if i have a tuya bulb?
+
+if you have your smart lighting, and the box, manual, or QR code tells you to use the Smart Life or Tuya Smart app, or a store-branded clone that looks identical to Smart Life (like LSC Smart Connect, Calex Smart, or Globe Suite), it uses the tuya platform, which means it is compatible with this software.
+
+---
+
 ## requirements
 - **python 3.8+**
 - a **tuya / smart life** rgb+cct smart bulb on your local wi-fi network
