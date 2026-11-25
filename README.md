@@ -1,6 +1,6 @@
-# ✦ tuya mood & weather lamp (ﾉ◕ヮ◕)ﾉ
+ # ✦ tuya mood & weather lamp (ﾉ◕ヮ◕)ﾉ
 
-a cozy little python script that turns any tuya-compatible smart rgb/cct bulb into a real-time ambient weather, temperature, and humidity lamp using the free [open-meteo](https://open-meteo.com/) api — no cloud subscription or account required once paired locally.
+a cozy little python script that turns any tuya-compatible smart rgb/cct bulb into a real-time ambient weather, temperature, and humidity lamp using the free [open-meteo](https://open-meteo.com/) api, no cloud subscription or account required.
 
 ## features
 - **temperature gradient**: smoothly shifts from deep blue (cold) → cyan/green (mild) → red (hot) in `°c` or `°f`
@@ -38,7 +38,7 @@ because `tinytuya` talks directly to your bulb over your local network, you'll n
 
 ### 3. run the script
 ```bash
-python main.py
+python weather-lighting.py
 ```
 
 on your first run, the script will ask for your bulb details and save them locally to `config.json` (which is gitignored so your keys stay private):
